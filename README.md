@@ -1,6 +1,9 @@
 # Teste Front End - Landing Page Healthy Food
 ![appCover](./public/cover.gif)
+<br />
 ![](https://img.shields.io/badge/Landing%20Page-Healthy%20Food-green) ![](https://img.shields.io/badge/Testes-Jest%20|%20ReactTestingLibrary-blue) ![](https://img.shields.io/badge/html5-CSS3-brow)
+<br />
+[Projeto Buildado](https://healthy-food-khaki.vercel.app/)
  
 ### 🎛️ Dependencias
  
