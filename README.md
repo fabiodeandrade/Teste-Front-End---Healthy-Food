@@ -39,6 +39,7 @@ Foi retirado do **coverage** os arquivos que estão no `src` por se tratarem ape
 - Refatoração do código visando performance
 - Tratamente de erros
 - Manutenção periódica
+- Funcionalidades extras
  
  
 
