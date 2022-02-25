@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Teste Front End - Landing Page Healthy Food
+![appCover](./public/cover.gif)
+![](https://img.shields.io/badge/Landing%20Page-Healthy%20Food-green) ![](https://img.shields.io/badge/Testes-Jest%20|%20ReactTestingLibrary-blue) ![](https://img.shields.io/badge/html5-CSS3-brow)
+ 
+### 🎛️ Dependencias
+ 
+- [React](https://pt-br.reactjs.org/) - Interface
+- [Jest](https://pt-br.reactjs.org/) - Testes
+- [React Testing Library](https://testing-library.com/docs/react-testing-library/intro/) - Testes unitário com renderização
+ 
+### 🎯 Objetivo
+O principal objeto era replicar uma página passada como referencia, utilizando os arquivos de imagens disponiveis, simulando uma tarefa real de um dia-a-dia de trabalho.
+ 
+ 
+### ⌨️ Como foi feito?
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A criação do ambiente foi gerada através do `npx create-reac-app`, onde as principais ferrametas para aplicação já vieram embutidas para o trabalho.
 
-## Available Scripts
+As `sections` da aplicação foram pensadas e iniciadas com conceitos de **TDD** onde o principio seria testar a parte apresentada para o usuário e criar um código para que os testes "passasssem".
 
-In the project directory, you can run:
+A estrução do projeto também foi criada utilizando o principio da **Clean Architecture** onde as regras de negócio pudessem ficar separadas, os testes e os arquivos de módulos e folhas de estilização (uma para desktop e outra para responsivo).
 
-### `npm start`
+### ⏲️Foi feito em quanto tempo?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Dediquei cerca de **2 horas** por dia para a landing page. Entre as consultas para resolução de problemas com a aplicação e codificação, tudo foi concluido em **4 dias**.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ 
+### 🧪 Testes 
+![coverage](./public/coverage.png)
 
-### `npm test`
+Os testes foram feitos com `Jest` e `RTL` (a biblioteca nativa de testes do React).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Cada componente - incluindo seus filhos - foram testados de forma separada e "mockando" apenas informações que eram passadas por `props`.
 
-### `npm run build`
+Foi retirado do **coverage** os arquivos que estão no `src` por se tratarem apenas de "wrappers" para a aplicação em geral.
+ 
+### 🔧 Próximos passos
+ 
+- Refatoração do código visando performance
+- Tratamente de erros
+- Manutenção periódica
+ 
+ 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
