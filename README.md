@@ -43,6 +43,14 @@ Foi retirado do **coverage** os arquivos que estão no `src` por se tratarem ape
 - Tratamente de erros
 - Manutenção periódica
 - Funcionalidades extras
+
+### 🎨 Autor
+
+LinkedIn: https://www.linkedin.com/in/fabiodeandrad/
+<br />
+Medium: https://medium.com/@fabioscript
+<br />
+E-mail: fabiodeandradecontato@gmail.com
  
  
 
