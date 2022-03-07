@@ -61,3 +61,34 @@ a:hover {
   color: rgb(3, 3, 82);
   border-bottom: 1px solid rgb(3, 3, 82);
 }
+
+.modal{
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 14rem;
+  text-align: center;
+}
+
+.modal input {
+  height: 2rem;
+  width: 90%;
+}
+
+.modalBtn {
+  width: 80%;
+  background-color: #92d362;
+  color: white;
+  cursor: pointer;
+  transition: all ease .8s;
+}
+
+.modalBtn:hover {
+  background-color: #639143;
+  
+}
+
+
+
+
