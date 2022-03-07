@@ -44,6 +44,9 @@ Foi retirado do **coverage** os arquivos que estão no `src` por se tratarem ape
 - Manutenção periódica
 - Funcionalidades extras
 
+### ♻️ Updates
+(07/03) - Foi adicionado um Modal ao botão "REGISTER" no cabeçalho
+
 ### 🎨 Autor
 
 LinkedIn: https://www.linkedin.com/in/fabiodeandrad/
