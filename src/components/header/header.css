@@ -49,7 +49,9 @@ button {
   color: #92d362;
   font-size: .8rem;
   font-weight: 600;
+  cursor: pointer;
 }
+
 
 a {
   text-decoration: none;
